@@ -46,7 +46,7 @@ State (`chatState`) tracks the running message list plus the latest `crag_meta` 
 ```
 .
 ├── backend.py     # LangGraph graph, tools, CRAG/Self-RAG pipeline, checkpointing helpers
-├── app.py         # Streamlit UI (chat, PDF upload, thread sidebar, retrieval-detail badges)
+├── frontend.py         # Streamlit UI (chat, PDF upload, thread sidebar, retrieval-detail badges)
 └── chatbot.db      # SQLite checkpoint database (created automatically on first run)
 ```
 
