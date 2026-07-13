@@ -1,0 +1,9 @@
+.env
+__pycache__/
+myenv/
+
+chatbot.db
+chatbot.db-shm
+chatbot.db-wal
+
+vector_store_cache/
